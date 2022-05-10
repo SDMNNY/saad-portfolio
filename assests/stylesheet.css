@@ -2,9 +2,30 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+    color: gold;
+    background-color: black;
+}
 
+nav {
 
+}
 
+.nav {
+
+}
+
+#coolsubtitle {
+
+}
+
+#aboutme {
+
+}
+
+#work {
+
+}
 
 .box {
     width: 400px;
@@ -36,3 +57,6 @@
     background-color: gold;
 }
 
+#contact-section {
+    
+}
