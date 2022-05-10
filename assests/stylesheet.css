@@ -13,11 +13,28 @@ header {
 
 
 .nav {
+float:right;
+margin-right: 25px;
+font-size: 20px;
+list-style: none;
 
 }
 
-#nav {
+.nav ul {
+    padding: 0;
+    margin:30px;
+    list-style: none;
+    text-align: right;
+}
 
+.nav ul li {
+    float:right;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.nav a {
+    color: black;
 }
 
 #coolsubtitle {
@@ -37,7 +54,8 @@ header {
     width: 400px;
     height: 400px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: inline-block;
+    display: inline-flex;
+    
     
 }
 
@@ -45,9 +63,20 @@ header {
     width: 400px;
     height: 400px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: inline-block;
+    display: inline-flex;
 
 }
+
+.box:hover {
+    box-shadow: 0 0 30px paleturquoise;
+
+}
+
+.box-s2:hover {
+    box-shadow: 0 0 30px paleturquoise;
+    
+}
+
 
 #box-one {
     font-size: 26px;
@@ -78,7 +107,7 @@ header {
 
 footer {
     background-color: gold;
-    padding: 20px 0;
+    padding: -20px;
     width: 100%;
     position: relative;
     ::content: align-items;
@@ -102,5 +131,5 @@ footer {
 }
 
 .footer-info a {
-    col
+    color: black;
 }
