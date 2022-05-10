@@ -1,0 +1,30 @@
+.box {
+    width: 400px;
+    height: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#box-one {
+    font-size: 26px;
+    color: gold;
+    background-color: black;
+}
+
+#box-two {
+    font-size: 26px;
+    color: black;
+    background-color: gold;
+}
+
+#box-three {
+    font-size: 26px;
+    color: gold;
+    background-color:black;
+}
+
+#box-four {
+    font-size: 26px;
+    color: black;
+    background-color: gold;
+}
+
