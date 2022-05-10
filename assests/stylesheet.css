@@ -7,11 +7,16 @@ header {
     background-color: black;
 }
 
-nav {
+#name {
 
 }
 
+
 .nav {
+
+}
+
+#nav {
 
 }
 
@@ -57,6 +62,34 @@ nav {
     background-color: gold;
 }
 
-#contact-section {
+
+
+
+footer {
+    background-color: gold;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    ::content: align-items;
+    left: 0;
+    bottom:0;
+    display: flex;
     
+}
+
+.footer-info ul {
+    padding: 0;
+    margin:30px;
+    list-style: none;
+    text-align: right;
+}
+
+.footer-info ul li {
+    float:right;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.footer-info a {
+    color: black;
 }
