@@ -1,13 +1,19 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 
 header {
     color: gold;
     background-color: black;
+    padding: 20px 0;
+    width: 100%
 }
 
 #name {
+    
 
 }
 
@@ -41,29 +47,55 @@ list-style: none;
 
 }
 
+.section-container {
+    margin-top: 10em;
+
+}
+
+.section-aboutme {
+    padding: 2em;
+}
+
 #me {
-    height: 10px;
-    width: 10px;
+    height: 500px;
+    width: 500px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: black 1px solid;
+    margin-bottom: 5em;
 }
 
 #work {
+    margin-top: 5em;
 
 }
 
+.boxes {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
 .box {
-    width: 400px;
-    height: 400px;
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: inline-flex;
+    border-radius: 15px;
+    padding: 2em;
+   
     
     
 }
 
 .box-s2 {
-    width: 400px;
-    height: 400px;
+ 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: inline-flex;
+    border-radius: 15px;
+    padding: 2em;
+    
 
 }
 
@@ -107,13 +139,14 @@ list-style: none;
 
 footer {
     background-color: gold;
-    padding: -20px;
     width: 100%;
     position: relative;
     ::content: align-items;
     left: 0;
     bottom:0;
-    display: flex;
+    display: block;
+    height: 100px;
+	
     
 }
 
@@ -133,3 +166,19 @@ footer {
 .footer-info a {
     color: black;
 }
+
+#contact-me {
+    color: black;
+    font-size: 26px;
+
+    
+}
+
+@media screen and (max-width:760px) {
+    .boxes {
+        grid-template-columns: 400px;
+        grid-template-rows: 400px 400px 400px 400px;
+
+    }
+}
+    
